@@ -1,5 +1,5 @@
 class TodosController < ApplicationController
-    before_action :session_expired?
+    # before_action :session_expired?
     
 
     def create
