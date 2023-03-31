@@ -6,6 +6,10 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
+puts "Seeding"
+
 Todo.create(title: "Add todo Endpoint", description: "Make sure you add todo endpoint", status: "CREATED", priority: "LOW", user_id: 2)
 Todo.create(title: "Add todo Endpoint", description: "Make sure you add todo endpoint", status: "STARTED", priority: "MEDIUM", user_id: 2)
 Todo.create(title: "Add new Endpoint", description: "Make sure you add todo endpoint", status: "CREATED", priority: "HIGH", user_id: 2)
+
+puts "Done Seeding"
