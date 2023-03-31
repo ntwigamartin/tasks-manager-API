@@ -599,3 +599,383 @@ Processing by UsersController#login as */*
 Completed 200 OK in 235ms (Views: 0.8ms | ActiveRecord: 0.9ms | Allocations: 8308)
 
 
+Started GET "/todos" for ::1 at 2023-03-31 23:20:45 +0300
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by TodosController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:35:in `user'
+Completed 422 Unprocessable Entity in 32ms (Views: 0.4ms | ActiveRecord: 1.0ms | Allocations: 6376)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:20:46 +0300
+Processing by TodosController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:35:in `user'
+Completed 422 Unprocessable Entity in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 690)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:20:46 +0300
+Processing by TodosController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:35:in `user'
+Completed 422 Unprocessable Entity in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 621)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:20:57 +0300
+Processing by TodosController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:35:in `user'
+Completed 422 Unprocessable Entity in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 634)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:20:57 +0300
+Processing by TodosController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:35:in `user'
+Completed 422 Unprocessable Entity in 5ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 634)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:21:58 +0300
+Processing by TodosController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:35:in `user'
+Completed 422 Unprocessable Entity in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 621)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:21:58 +0300
+Processing by TodosController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:35:in `user'
+Completed 422 Unprocessable Entity in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 621)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:22:06 +0300
+Processing by TodosController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:35:in `user'
+Completed 422 Unprocessable Entity in 3ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 634)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:22:06 +0300
+Processing by TodosController#index as */*
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:35:in `user'
+Completed 422 Unprocessable Entity in 2ms (Views: 0.2ms | ActiveRecord: 0.2ms | Allocations: 621)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:22:11 +0300
+Processing by TodosController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:35:in `user'
+Completed 422 Unprocessable Entity in 2ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 621)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:22:11 +0300
+Processing by TodosController#index as */*
+  [1m[36mUser Load (0.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:35:in `user'
+Completed 422 Unprocessable Entity in 8ms (Views: 0.2ms | ActiveRecord: 0.1ms | Allocations: 622)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:37:53 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 32ms (Views: 21.0ms | ActiveRecord: 1.6ms | Allocations: 8743)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:37:53 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.2ms | Allocations: 1205)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:38:28 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.7ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 6ms (Views: 5.3ms | ActiveRecord: 0.7ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:38:28 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:40:32 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:40:45 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.1ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:40:45 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:40:57 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 3ms (Views: 2.9ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:40:57 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started DELETE "/todos/undefined" for ::1 at 2023-03-31 23:45:05 +0300
+Processing by TodosController#destroy as */*
+  Parameters: {"id"=>"undefined"}
+  [1m[36mUser Load (0.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT ?[0m  [["id", 0], ["LIMIT", 1]]
+  ↳ app/controllers/application_controller.rb:35:in `user'
+Completed 422 Unprocessable Entity in 8ms (Views: 0.3ms | ActiveRecord: 1.2ms | Allocations: 3120)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:49:12 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 28ms (Views: 10.7ms | ActiveRecord: 0.7ms | Allocations: 6837)
+
+
+Started GET "/todos" for ::1 at 2023-03-31 23:49:12 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.1ms | Allocations: 1132)
+
+
+Started POST "/todos" for ::1 at 2023-03-31 23:49:53 +0300
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>0, "priority"=>0, "todo"=>{"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>0, "priority"=>0}}
+[31mUnpermitted parameter: :todo. Context: { controller: TodosController, action: create, request: #<ActionDispatch::Request:0x00007ffae8e83510>, params: {"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>0, "priority"=>0, "controller"=>"todos", "action"=>"create", "todo"=>{"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>0, "priority"=>0}} }[0m
+Completed 422 Unprocessable Entity in 61ms (Views: 13.7ms | ActiveRecord: 0.0ms | Allocations: 5868)
+
+
+Started POST "/todos" for ::1 at 2023-03-31 23:53:29 +0300
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"STARTED", "priority"=>"MEDIUM", "todo"=>{"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"STARTED", "priority"=>"MEDIUM"}}
+[31mUnpermitted parameter: :todo. Context: { controller: TodosController, action: create, request: #<ActionDispatch::Request:0x00007ffaeb102988>, params: {"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"STARTED", "priority"=>"MEDIUM", "controller"=>"todos", "action"=>"create", "todo"=>{"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"STARTED", "priority"=>"MEDIUM"}} }[0m
+Completed 422 Unprocessable Entity in 9ms (Views: 3.8ms | ActiveRecord: 0.0ms | Allocations: 781)
+
+
+Started POST "/todos" for ::1 at 2023-03-31 23:57:39 +0300
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"COMPLETED", "priority"=>"HIGH", "todo"=>{"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"COMPLETED", "priority"=>"HIGH"}}
+[31mUnpermitted parameter: :todo. Context: { controller: TodosController, action: create, request: #<ActionDispatch::Request:0x00007ffaeb0e8998>, params: {"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"COMPLETED", "priority"=>"HIGH", "controller"=>"todos", "action"=>"create", "todo"=>{"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"COMPLETED", "priority"=>"HIGH"}} }[0m
+Completed 422 Unprocessable Entity in 8ms (Views: 3.1ms | ActiveRecord: 0.0ms | Allocations: 734)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:00:31 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.4ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.4ms | Allocations: 1198)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:00:31 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 7ms (Views: 6.5ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:00:59 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 5ms (Views: 4.3ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:00:59 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 7ms (Views: 6.8ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:01:17 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:01:17 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.1ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:02:35 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 7ms (Views: 6.3ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:02:35 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:03:05 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.2ms | Allocations: 1117)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:03:05 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:03:32 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:03:32 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.3ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 5ms (Views: 4.5ms | ActiveRecord: 0.3ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:03:53 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 5ms (Views: 4.9ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:03:53 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.2ms | Allocations: 1117)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:04:28 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:04:28 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms | Allocations: 1117)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:04:53 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 10ms (Views: 3.0ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:04:53 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 7ms (Views: 6.9ms | ActiveRecord: 0.1ms | Allocations: 1116)
+
+
+Started POST "/todos" for ::1 at 2023-04-01 00:05:14 +0300
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"1", "priority"=>"1", "todo"=>{"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"1", "priority"=>"1"}}
+[31mUnpermitted parameter: :todo. Context: { controller: TodosController, action: create, request: #<ActionDispatch::Request:0x00007ffae8e6ada8>, params: {"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"1", "priority"=>"1", "controller"=>"todos", "action"=>"create", "todo"=>{"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"1", "priority"=>"1"}} }[0m
+Completed 422 Unprocessable Entity in 3ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 313)
+
+
+Started POST "/todos" for ::1 at 2023-04-01 00:08:14 +0300
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"1", "priority"=>"1", "todo"=>{"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"1", "priority"=>"1"}}
+[31mUnpermitted parameter: :todo. Context: { controller: TodosController, action: create, request: #<ActionDispatch::Request:0x00007ffae8e328b8>, params: {"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"1", "priority"=>"1", "controller"=>"todos", "action"=>"create", "todo"=>{"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"1", "priority"=>"1"}} }[0m
+Completed 422 Unprocessable Entity in 6ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 305)
+
+
+Started POST "/todos" for ::1 at 2023-04-01 00:10:43 +0300
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"1", "priority"=>"1", "todo"=>{"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"1", "priority"=>"1"}}
+[31mUnpermitted parameter: :todo. Context: { controller: TodosController, action: create, request: #<ActionDispatch::Request:0x00007ffaeb13a338>, params: {"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"1", "priority"=>"1", "controller"=>"todos", "action"=>"create", "todo"=>{"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"1", "priority"=>"1"}} }[0m
+Completed 422 Unprocessable Entity in 3ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 306)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:13:23 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 6ms (Views: 5.6ms | ActiveRecord: 0.7ms | Allocations: 1299)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:13:23 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:13:39 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.2ms | Allocations: 1116)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:13:39 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 5ms (Views: 5.0ms | ActiveRecord: 0.1ms | Allocations: 1116)
+
+
+Started POST "/todos" for ::1 at 2023-04-01 00:14:00 +0300
+Processing by TodosController#create as */*
+  Parameters: {"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"STARTED", "priority"=>"MEDIUM", "todo"=>{"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"STARTED", "priority"=>"MEDIUM"}}
+[31mUnpermitted parameter: :todo. Context: { controller: TodosController, action: create, request: #<ActionDispatch::Request:0x00007ffaeb077e00>, params: {"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"STARTED", "priority"=>"MEDIUM", "controller"=>"todos", "action"=>"create", "todo"=>{"title"=>"add new todo", "description"=>"Make sure you add todo endpoint", "status"=>"STARTED", "priority"=>"MEDIUM"}} }[0m
+Completed 422 Unprocessable Entity in 13ms (Views: 2.1ms | ActiveRecord: 0.0ms | Allocations: 733)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:19:32 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.2ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.2ms | Allocations: 1118)
+
+
+Started GET "/todos" for ::1 at 2023-04-01 00:19:32 +0300
+Processing by TodosController#index as */*
+  [1m[36mTodo Load (0.1ms)[0m  [1m[34mSELECT "todos".* FROM "todos"[0m
+  ↳ app/controllers/application_controller.rb:6:in `app_response'
+Completed 200 OK in 11ms (Views: 10.6ms | ActiveRecord: 0.1ms | Allocations: 1116)
+
+

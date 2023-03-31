@@ -3,7 +3,8 @@ class TodosController < ApplicationController
     
 
     def create
-        todo = user.todos.create(todo_params)
+        # todo = user.todos.create(todo_params)
+        todo = Todo.create(todo_params)
         if todo.valid?
             app_response(status: :created, data: todo)
         else
@@ -26,7 +27,8 @@ class TodosController < ApplicationController
     end
 
     def index
-        todos = user.todos.all
+        # todos = user.todos.all
+        todos = Todo.all
         app_response(message: 'success', data: todos)
     end
 
